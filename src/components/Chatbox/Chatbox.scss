@@ -1,0 +1,56 @@
+.chatbox {
+  max-height: 100vh;
+  overflow: scroll;
+  text-align: left;
+}
+//how to make chat separate scroll
+
+.new {
+  background-color: rgb(234, 166, 76);
+}
+
+.chatbox-wrapper {
+  max-height: 100vh;
+}
+
+.chatlog {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+
+  // .chatlog__userInfo
+
+  &__userInfo {
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+  }
+
+  // .chatlog__userImage
+
+  &__userImage {
+    max-width: 100%;
+  }
+
+  // .chatlog__userName
+
+  &__userName {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+  }
+
+  // .chatlog__time
+
+  &__time {
+    justify-self: end;
+    padding-right: 2rem;
+  }
+
+  // .chatlog__message
+
+  &__message {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(243, 212, 172);
+  }
+}
