@@ -29,14 +29,3 @@ export default function Chatbox({chatLogs}) {
     </div>
   );
 }
-
-{
-  /* <div class="chatlog">
-  <div class="chatlog__userInfo">
-<img class="chatlog__userImage" src="" alt="" />
-<p class="chatlog__userName"></p>
-<p class="chatlog__time"></p>
-</div>
-<div class="chatlog__message"></div>
-</div> */
-}

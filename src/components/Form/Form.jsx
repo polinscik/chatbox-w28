@@ -115,7 +115,6 @@ export default function Form({setChatLogs, chatLogs}) {
           <p className="error">Заполните нужные поля</p>
         )}
         <button type="submit">Отправить</button>
-        {/* type= button? */}
       </form>
     </div>
   );

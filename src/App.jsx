@@ -3,15 +3,6 @@ import "./App.css";
 import Form from "./components/Form/Form";
 import Chatbox from "./components/Chatbox/Chatbox";
 
-// const initialChatLog = [
-//   {
-//     username: "Cat",
-//     isAnon: false,
-//     url: "",
-//     message: "Hello World",
-//   },
-// ];
-
 function App() {
   const [chatLogs, setChatLogs] = useState([]);
   return (
